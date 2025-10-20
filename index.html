@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test de site</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Voyage Scolaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 50px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .day-links {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .day-link {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .day-link:hover {
+            background: #555;
+        }
+    </style>
 </head>
 <body>
-    <a href="jour1.html">Jour 1</a>
+    <header>
+        <h1>Voyage Scolaire en Roumanie</h1>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2>Pourquoi ce voyage?</h2>
+            <p>Cette page explique pourquoi nous organisons ce voyage scolaire. Le but de ce voyage est de permettre aux élèves de découvrir de nouvelles cultures, d'apprendre en dehors de la salle de classe et de créer des souvenirs inoubliables avec leurs camarades.</p>
+            <p>Nous allons visiter des lieux historiques, des musées, et participer à des activités éducatives qui enrichiront leur expérience scolaire.</p>
+        </div>
+        <div class="day-links">
+            <a href="jour1.html" class="day-link">Jour 1</a>
+            <a href="jour2.html" class="day-link">Jour 2</a>
+            <a href="jour3.html" class="day-link">Jour 3</a>
+            <a href="jour4.html" class="day-link">Jour 4</a>
+            <a href="jour5.html" class="day-link">Jour 5</a>
+            <a href="jour6.html" class="day-link">Jour 6</a>
+        </div>
+    </div>
 </body>
 </html>
