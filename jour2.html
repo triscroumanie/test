@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les TRISC en Roumanie</title>
-    <link rel="shortcut icon" href="/Flag_of_Romania.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/Flag_of_Romania.ico" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,6 +18,7 @@
             color: #fff;
             padding: 10px 0;
             text-align: center;
+            border-radius: 50px;
         }
         .container {
             width: 80%;
@@ -31,14 +32,14 @@
             margin: 20px 0;
         }
         .gallery-item {
-            width: 30%;
+            width: 50%;
             margin-bottom: 20px;
             background: #fff;
             padding: 10px;
             border-radius: 10px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 px rgba(0, 0, 0, 0.1);
         }
-        .gallery-item img {
+        .gallery-item img{
             width: 100%;
             height: auto;
             border-radius: 15px;
@@ -47,41 +48,69 @@
             text-align: center;
             margin-top: 10px;
         }
+        .video{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Galerie de Voyages</h1>
+        <h1>Jour 2 du Voyage</h1>
     </header>
     <div class="container">
         <div class="gallery">
-            <!-- Exemple de section pour une image -->
+            <!-- Exemple de section pour une image -->            
             <div class="gallery-item">
-                <img src="chemin/vers/votre/image1.jpg" alt="Description de l'image 1">
-                <h3>Description de l'image 1</h3>
+                <img src="assets/img/J2/chateau ensemble2.jpg" alt="Citadelle vue du bas">
+                <h3>Citadelle vue du bas</h3>
             </div>
-            <!-- Ajoutez d'autres sections pour les images ici -->
+            
             <div class="gallery-item">
-                <img src="chemin/vers/votre/image2.jpg" alt="Description de l'image 2">
-                <h3>Description de l'image 2</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="chemin/vers/votre/image3.jpg" alt="Description de l'image 3">
-                <h3>Description de l'image 3</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="chemin/vers/votre/image4.jpg" alt="Description de l'image 4">
-                <h3>Description de l'image 4</h3>
-            </div>
-                <div class="gallery-item">
-                <img src="chemin/vers/votre/image4.jpg" alt="Description de l'image 4">
-                <h3>Description de l'image 4</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="chemin/vers/votre/image4.jpg" alt="Description de l'image 4">
-                <h3>Description de l'image 4</h3>
+            <video autoplay muted loop class="video">
+            <source src="assets/video/Vidéo 1.mp4" type="video/mp4">
+            </video>
+            <h3>Arrivée à la "NEAMŢ CITADEL"</h3>
             </div>
 
+            <div class="gallery-item">
+                <img src="assets/img/J2/chateau.jpg" alt="Groupe arrivant à la citadelle">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/J2/matheo.jpg" alt="Explications de l'histoire de la citadelle de NEAMŢ">
+                <h3>Explications de l'histoire de la citadelle de NEAMŢ</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/J2/piece.jpg" alt="Intérieur de la citadelle">
+                <h3>Intérieur de la citadelle</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/J2/tenue.jpg" alt="Tenues traditionnelles">
+                <h3>Tenues traditionnelles</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/J2/livres.jpg" alt="Livres">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/J2/livre1.jpg" alt="Livre 1">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/J2/chateau2.jpg" alt="Fin de la visite">
+                <h3>Fin de la visite</h3>
+            </div>
+            <div class="gallery-item">
+                <video autoplay muted loop class="video">
+                    <source src="assets/video/Vidéo 3.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
     </div>
 </body>
